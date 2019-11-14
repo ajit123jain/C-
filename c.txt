@@ -1,0 +1,32 @@
+Reserved Keyboards 
+asm, auto, bool, break, case, catch, char, class, const, const_cast, continue, default, delete, do, double, dynamic_cast, else, enum, explicit, export, extern, false, float, for, friend, goto, if, inline, int, long, mutable, namespace, new, operator, private, protected, public, register, reinterpret_cast, return, short, signed, sizeof, static, static_cast, struct, switch, template, this, throw, true, try, typedef, typeid, typename, union, unsigned, using, virtual, void, volatile, wchar_t, while
+
+and, and_eq, bitand, bitor, compl, not, not_eq, or, or_eq, xor, xor_eq
+
+C++ is Case Sensitive 
+
+
+Constants 
+#define PI 3.14 
+
+a = 2 + (b = 5);
+a = b = c = 5;
+a = (b=3, b+2); Comma operator
+Bitwise & | ^ ~ <<  >>
+a sizeof(char) = 1 
+cout << "First sentence." << endl; for explicitly new line.
+cin >> a >> b;
+getline (cin, mystr); for Statement 
+We need the data type we request not any other else.
+
+After using sstream library 
+ string mystr ("1204");
+int myint;
+stringstream(mystr) >> myint;
+
+ for ( n=0, i=100 ; n!=i ; n++, i-- ) {
+// whatever here...
+}
+
+Exit Function
+void exit (int exitcode);
