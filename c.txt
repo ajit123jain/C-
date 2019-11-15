@@ -47,4 +47,25 @@ Decalration of Function
 int protofunction (int first, int second);
 
 Compund Datatype:
+int billy [5] = { 16, 2, 77, 40, 12071 };
+int billy [] = { 16, 2, 77, 40, 12071 };
 
+billy[0] = a;
+billy[a] = 75;
+b = billy [a+2]; billy[billy[a]] = billy[2] + 5;
+
+We have just seen that a variable which stores a reference to another variable is called a pointer. Pointers are said to "point to" the variable whose reference they store.
+
+• & is the reference operator and can be read as "address of"
+• * is the dereference operator and can be read as "value pointed by"
+
+
+Good Morning Anindya Chanda,
+I was forgot to send you the Crossotel Test User credentials.
+URL:  https://app.crossotel.com/
+Email: user@mailinator.com
+Password:  Password@test
+
+Please have look at this and let me know your feedback.
+Thanks & Regards 
+Ajit Jain 
