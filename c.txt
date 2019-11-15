@@ -30,3 +30,21 @@ stringstream(mystr) >> myint;
 
 Exit Function
 void exit (int exitcode);
+
+
+Function params bu reference.
+When a variable is passed by reference we are not passing a copy of its value, but we are somehow passing the variable itself to the function and any modification that we do to the local variables will have an effect in their counterpart variables passed as arguments in the call to the function.
+
+Method Overloading
+Notice that a function cannot be overloaded only by its return type. At least one of its parameters must have a different type.
+
+inline Function 
+inline type name ( arguments ... ) { instructions ... }
+
+Recursivity 
+
+Decalration of Function 
+int protofunction (int first, int second);
+
+Compund Datatype:
+
