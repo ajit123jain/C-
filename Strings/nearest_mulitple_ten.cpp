@@ -1,0 +1,14 @@
+#include <iostream> 
+using namespace std;  
+int round(int n) 
+{ 
+	int a = (n / 10) * 10; // Smaller 
+	int b = a + 10;  //Bigger
+	return (n - a > b - n)? b : a; 
+} 
+int main() 
+{ 
+	int n = 4728; 
+	cout << round(n) << endl; 
+	return 0; 
+} 
