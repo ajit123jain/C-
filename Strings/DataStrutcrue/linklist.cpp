@@ -31,17 +31,60 @@ void insertAfter(int k,Node **n){
     temp->next = newnode;
   }
 }
+void insertPrevious(int k,Node **n){
+  Node *newnode = new Node;
+  newnode->data = k;
+  newnode->next = *n;
+  *n = newnode;
+  return ;
+}
+void findKey(int k,Node **n){
+  bool flag = false;
+  if(*n == NULL)
+  {
+    cout << "Linklist Doesn't have any element\n";
+    return;
+  }
+  Node *temp = *n;
+  while(temp->next != NULL){
+    if(temp->data == k){
+      cout << k <<" is present\n";
+      flag = true;
+      break;
+    }
+    else{
+      temp = temp->next;
+    }
+  }
+  if (!flag)
+   cout << "Key Not found in the linklist.\n";
+}
+void linklistSize(Node **n){
+  Node *temp = *n;
+  int count = 0;
+  if(*n == NULL){
+    cout << "Linklist is zero";
+    return ;
+  }
+  while (temp != NULL)
+  {
+    cout << temp->data << " \n";
+    count++;
+    temp = temp->next;
+  }
+  cout << "Linklist size is "<< count << endl;
+}
 int main(){
   insertAfter(5,&head);
   insertAfter(15,&head);
   insertAfter(20,&head);
   insertAfter(25,&head);
-  // insertAfter(10,head);
-  // insertAfter(10);
-  // insertAfter(15);
-  // Node *pre = new Node;
-  // pre->data = 10;
-  // pre->next = head;
+  insertPrevious(100,&head);
+  insertPrevious(110,&head);
+  linklistSize(&head);
+  findKey(15,&head);
+  findKey(30,&head);
   printList(head);
+  linklistSize(&head);
   return 0;
 }
