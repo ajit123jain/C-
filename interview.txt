@@ -27,7 +27,8 @@ Applications of Depth First Search
 Applications of Breadth-First Search
 
 
-Hi Akhil, This is Ajit here from Avalon labs.I passed out B.tech last June 2018.From there onwards I am working as ROR developer.I worked Around 7 months at Healthgraph Which is a digital Healthgraph Startup.There I worked on small-2 feature and some forms,Some part of analytics.On Febuary I joined Avalonlabs So here I worked on some different-2 Products like Shopping website with dynamic pricing enabled based on order and click and based on availabilty and some other params.After that from Last 7 months I working on product called Crossotel which a Hotel Revenue Management Studio.It managed the hotel pricing dynamic to get to best Revenue for hotelier.
+Hi Ramesh, This is Ajit here from Avalon labs.I passed out B.tech last June 2018.From there onwards I am working as ROR developer.I worked Around 7 months at Healthgraph Which is a digital Healthgraph Startup.There I worked on small-2 feature and some forms,Some part of analytics.On Febuary I joined Avalonlabs So here I worked on some different-2 Products like Shopping website with dynamic pricing enabled based on order and click and based on availabilty and some other params.After that from Last 7-8 months I working on product called Crossotel which a Hotel Revenue Management Studio.It managed the hotel pricing dynamic to get to best Revenue for hotelier.I build this from scratch currently used by 10 clients.
+
 
 Devise 
 Clockwork 
@@ -43,4 +44,11 @@ scout
 bullet 
 pry-rails 
 stackprof 
+ransack 
+faraday 
+annotate
+capybara
+tzinfo 
+simple_form
+custom_error 
 
