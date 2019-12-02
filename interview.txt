@@ -52,3 +52,20 @@ tzinfo
 simple_form
 custom_error 
 
+
+
+Links Of important Questions 
+https://www.geeksforgeeks.org/most-asked-computer-science-subjects-interview-questions-in-amazon-microsoft-flipkart/
+https://www.geeksforgeeks.org/amazons-most-frequently-asked-interview-questions-set-2/
+https://www.geeksforgeeks.org/top-20-backtracking-algorithm-interview-questions/
+https://www.geeksforgeeks.org/top-20-greedy-algorithms-interview-questions/
+https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
+https://www.geeksforgeeks.org/top-20-linked-list-interview-question/
+
+
+
+Binary Heap 
+https://www.geeksforgeeks.org/binary-heap/
+
+Tree 
+https://medium.com/@codingfreak/binary-tree-interview-questions-and-practice-problems-439df7e5ea1f
